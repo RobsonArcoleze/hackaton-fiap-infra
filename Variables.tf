@@ -52,12 +52,12 @@ variable "queueVideoStatusName" {
 }
 
 variable "framesVideoS3Name" {
-  default = "frames-video-bucket"
+  default = "robson-frames-video-bucket"
   
 }
 
 variable "originalVideoS3Name" {
-  default = "original-video-bucket"
+  default = "robson-original-video-bucket"
   
 }
 
