@@ -3,7 +3,7 @@
 //Se rodando local, lembrar de mudar arquivo credentials
 terraform {
   backend "s3" {
-    bucket = "frameflow-backend-tf"
+    bucket = "hackaton-frameflow-backend-tf"
     key = "fiap51Burguer/terraform.tfstate"
     region = "us-east-1"
    
